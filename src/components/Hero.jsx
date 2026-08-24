@@ -7,7 +7,7 @@ export default function Hero() {
           <h1>Fler beställningar.<br /><span>Mer kvar till dig.</span></h1>
           <p className="hero-lead">Nå nya kunder, behåll mer av intäkterna och få en personlig partner som hjälper din restaurang att växa.</p>
           <div className="hero-actions">
-            <a className="button" href="#ansok">Anslut din restaurang</a>
+            <a className="button" href="#anslut">Anslut din restaurang</a>
             <a className="text-link" href="#sa-fungerar-det">Se hur det fungerar <span aria-hidden="true">→</span></a>
           </div>
           <p className="hero-note"><span aria-hidden="true">✓</span> Ingen bindningstid &nbsp; <span aria-hidden="true">✓</span> Ingen månadsavgift</p>
