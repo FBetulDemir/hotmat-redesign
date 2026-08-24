@@ -27,8 +27,7 @@ export default function Header() {
     <header className="site-header">
       <div className="container header-inner">
         <a className="hotmat-logo" href="#top" aria-label="Hotmat, gå till sidans början">
-          <span className="hotmat-logo-mark" aria-hidden="true">H</span>
-          <span>hotmat</span>
+          <img className="hotmat-logo-image" src="/hotmat-logo.svg" alt="" />
         </a>
 
         <nav className="desktop-navigation" aria-label="Huvudnavigering">
