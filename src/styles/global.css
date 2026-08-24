@@ -1,0 +1,79 @@
+:root {
+  --hotmat-red: #d92d20;
+  --dark-text: #211d1b;
+  --muted-text: #6f6762;
+  --light-background: #f8f5f1;
+  --border-color: #e8e1db;
+  --white: #ffffff;
+  --border-radius: 0.75rem;
+  --small-shadow: 0 6px 18px rgb(33 29 27 / 8%);
+  --content-max-width: 75rem;
+  --spacing-1: 0.5rem;
+  --spacing-2: 1rem;
+  --spacing-3: 1.5rem;
+  --spacing-4: 2rem;
+  --spacing-5: 3rem;
+  --spacing-6: 5rem;
+
+  --color-brand: var(--hotmat-red);
+  --color-brand-dark: #b42318;
+  --color-brand-soft: #fff1ef;
+  --color-ink: var(--dark-text);
+  --color-muted: var(--muted-text);
+  --color-surface: var(--white);
+  --color-tint: var(--light-background);
+  --color-border: var(--border-color);
+  --color-dark: #201a18;
+  --shadow-sm: var(--small-shadow);
+  --shadow-lg: 0 28px 70px rgb(55 35 25 / 16%);
+  --radius-sm: var(--border-radius);
+  --radius-md: 1rem;
+  --radius-lg: 1.5rem;
+  --space-1: var(--spacing-1);
+  --space-2: var(--spacing-2);
+  --space-3: var(--spacing-3);
+  --space-4: var(--spacing-4);
+  --space-5: var(--spacing-5);
+  --space-6: var(--spacing-6);
+  --font-body: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-heading: var(--font-body);
+  font-family: var(--font-body);
+  color: var(--color-ink);
+  background: var(--color-surface);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 5.5rem; }
+body { margin: 0; min-width: 320px; overflow-x: hidden; line-height: 1.6; }
+body, button, input { font: inherit; }
+img, svg { display: block; max-width: 100%; }
+a { color: inherit; text-decoration: none; }
+button, a { -webkit-tap-highlight-color: transparent; }
+button { cursor: pointer; }
+:focus-visible { outline: 3px solid var(--hotmat-red); outline-offset: 3px; }
+
+.container { width: 100%; max-width: var(--content-max-width); margin-inline: auto; padding-inline: var(--spacing-3); }
+.section { padding: var(--space-6) 0; }
+.section-tint { background: var(--color-tint); }
+.section-heading { max-width: 680px; margin: 0 auto var(--space-5); text-align: center; }
+.section-heading.compact { margin-bottom: var(--space-4); }
+.section-heading p:last-child, .pricing-copy > p, .faq-heading > p { color: var(--color-muted); font-size: 1.05rem; }
+.eyebrow { margin: 0 0 var(--space-1); color: var(--color-brand); font-size: 0.78rem; font-weight: 700; letter-spacing: 0.11em; text-transform: uppercase; }
+h1, h2, h3 { margin-top: 0; font-family: var(--font-heading); line-height: 1.15; letter-spacing: -0.035em; }
+h1 { margin-bottom: var(--space-3); font-size: clamp(2.8rem, 5vw, 4.8rem); }
+h2 { margin-bottom: var(--space-2); font-size: clamp(2rem, 3.4vw, 3rem); }
+h3 { margin-bottom: 0.6rem; font-size: 1.14rem; }
+p { margin-top: 0; }
+
+.button { display: inline-flex; min-height: 3.25rem; align-items: center; justify-content: center; gap: 0.5rem; padding: 0.8rem 1.45rem; border: 1px solid var(--color-brand); border-radius: var(--radius-sm); background: var(--color-brand); color: white; font-weight: 700; transition: background 180ms ease, border-color 180ms ease, transform 180ms ease; }
+.button:hover { border-color: var(--color-brand-dark); background: var(--color-brand-dark); transform: translateY(-1px); }
+.button-small { min-height: 2.75rem; padding: 0.6rem 1.1rem; }
+.button-secondary { border-color: var(--color-border); background: white; color: var(--color-ink); }
+.button-secondary:hover { border-color: #cfc3ba; background: var(--color-tint); }
+.button-light { border-color: white; background: white; color: var(--color-brand); }
+.button-light:hover { border-color: var(--color-tint); background: var(--color-tint); }
+.text-link { display: inline-flex; align-items: center; gap: 0.45rem; color: var(--color-brand); font-weight: 700; }
+.text-link span { transition: transform 160ms ease; }
+.text-link:hover span { transform: translateX(4px); }
