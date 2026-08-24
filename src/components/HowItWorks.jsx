@@ -1,21 +1,21 @@
 const steps = [
-  ['01', 'Skicka din ansökan', 'Fyll i formuläret med information om din restaurang. Det tar bara några minuter.'],
-  ['02', 'Vi kontaktar dig', 'En av våra säljare hör av sig inom två arbetsdagar och hjälper dig vidare.'],
-  ['03', 'Börja ta emot order', 'Vi lägger upp din restaurang och meny. Sedan är du redo att nå nya kunder.'],
+  ['01', 'Anslut din restaurang', 'Skicka in dina uppgifter och berätta om din verksamhet.'],
+  ['02', 'Vi hjälper dig komma igång', 'Hotmat hjälper till med uppsättning och förberedelser.'],
+  ['03', 'Börja ta emot beställningar', 'Nå nya kunder och hantera dina beställningar via Hotmat.'],
 ];
 
 export default function HowItWorks() {
   return (
-    <section className="section section-tint" id="sa-fungerar-det">
+    <section className="section section-light-background" id="sa-fungerar-det">
       <div className="container">
-        <div className="section-heading compact">
-          <p className="eyebrow">En smidig start</p>
-          <h2>Kom igång i tre enkla steg</h2>
+        <div className="section-introduction section-introduction-compact">
+          <h2>Kom igång med Hotmat</h2>
+          <p>Tre enkla steg och du är igång.</p>
         </div>
-        <ol className="steps-list">
+        <ol className="onboarding-steps">
           {steps.map(([number, title, text]) => (
             <li key={number}>
-              <span className="step-number">{number}</span>
+              <span className="onboarding-step-number">{number}</span>
               <div><h3>{title}</h3><p>{text}</p></div>
             </li>
           ))}
