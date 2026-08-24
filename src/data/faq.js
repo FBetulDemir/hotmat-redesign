@@ -1,22 +1,22 @@
 export const faqItems = [
   {
-    question: 'Hur snabbt kan min restaurang komma igång?',
-    answer: 'När vi har fått alla uppgifter och din meny hjälper vi dig att komma igång så snart som möjligt. En säljare kontaktar dig inom två arbetsdagar efter ansökan.',
+    question: 'Vad kostar det att ansluta sig?',
+    answer: 'Det kostar 1 799 kr att komma igång. Startavgiften dras vid avräkning — du får ingen separat faktura utan betalar när du börjar få beställningar via Hotmat. Det finns inga månadsavgifter eller serviceavgifter.',
   },
   {
     question: 'Finns det någon bindningstid?',
-    answer: 'Nej. Hotmat har ingen bindningstid och ingen månadsavgift. Du betalar provision på beställningarna som kommer genom tjänsten.',
+    answer: 'Nej, vi har ingen bindningstid. Du kan avsluta ditt samarbete med Hotmat när du vill utan extra kostnader eller långa uppsägningstider.',
   },
   {
-    question: 'Hur mycket kostar det att vara med?',
-    answer: 'Startavgiften är 1 799 kr och provisionen är 8 %. Månadsavgiften och serviceavgiften är 0 kr.',
+    question: 'Hur fungerar provisionen?',
+    answer: 'Hotmat tar 8 % provision på varje beställning. Det är allt — inga dolda avgifter eller tilläggsdelar. Du ser alltid tydligt vad du får utbetalt.',
   },
   {
-    question: 'Vem sköter leveranserna?',
-    answer: 'Restaurangen kan sköta sina egna leveranser. När vi kontaktar dig går vi igenom upplägget som passar din verksamhet.',
+    question: 'Hur snabbt kan min restaurang komma igång?',
+    answer: 'När vi fått din ansökan kontaktar vi dig inom två arbetsdagar. Sedan hjälper vi dig med uppsättning och förberedelser så att du kan börja ta emot beställningar så snart som möjligt.',
   },
   {
-    question: 'Kan jag ändra min meny och mina öppettider?',
-    answer: 'Ja. Kontakta Hotmats support när du vill uppdatera meny, priser eller öppettider så hjälper vi dig.',
+    question: 'Hur får jag hjälp om jag har frågor?',
+    answer: 'Du kan nå Hotmat via e-post och telefon. Vi strävar alltid efter att svara snabbt och hjälpsamt.',
   },
 ];
