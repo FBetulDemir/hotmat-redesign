@@ -1,0 +1,203 @@
+@media (max-width: 900px) {
+  .section {
+    padding: 4rem 0;
+  }
+  #for-restauranger,
+  #sa-fungerar-det {
+    padding-block: 5.5rem;
+  }
+  .hero {
+    padding: 5.5rem 0;
+  }
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+  .hero-copy {
+    max-width: 680px;
+    text-align: center;
+  }
+  .hero-actions {
+    justify-content: center;
+  }
+  .hero-image-wrapper {
+    width: min(540px, 100%);
+    margin-inline: auto;
+  }
+  .restaurant-benefits-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .onboarding-steps {
+    grid-template-columns: 1fr;
+  }
+  .pricing-layout {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+  .pricing-copy {
+    padding-top: 0;
+  }
+  .footer-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding-inline: var(--spacing-2);
+  }
+  h1 {
+    font-size: clamp(2.45rem, 12vw, 3.4rem);
+  }
+  h2 {
+    font-size: 1.85rem;
+  }
+  .hero {
+    padding-block: 4.25rem;
+  }
+  .hero-lead {
+    font-size: 1.05rem;
+  }
+  .hero-actions {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  .hero-actions .button,
+  .hero-actions .secondary-action-link {
+    width: 100%;
+  }
+  .statistics-section {
+    padding-block: 2.25rem;
+  }
+  .statistics-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .statistics-item {
+    padding: 1rem 0.75rem;
+  }
+  .statistics-item:not(:last-child)::after {
+    display: none;
+  }
+  .statistics-item:nth-child(-n + 2) {
+    border-bottom: 1px solid var(--border-color);
+  }
+  .statistics-item strong {
+    font-size: 2rem;
+  }
+  .statistics-item span {
+    font-size: 0.8rem;
+  }
+  .restaurant-benefits-list {
+    grid-template-columns: 1fr;
+  }
+  #for-restauranger,
+  #sa-fungerar-det {
+    padding-block: 4.5rem;
+  }
+  #for-restauranger .section-introduction {
+    margin-bottom: 3rem;
+  }
+  #sa-fungerar-det .section-introduction {
+    margin-bottom: 2.75rem;
+  }
+  .onboarding-steps {
+    gap: 2.5rem;
+  }
+  .onboarding-steps li:last-child .onboarding-step-number::after {
+    visibility: visible;
+  }
+  .onboarding-steps p {
+    max-width: none;
+  }
+  .restaurant-benefit {
+    padding: 1.75rem;
+  }
+  .pricing-section {
+    padding-block: 4.5rem;
+  }
+  .price-row {
+    min-height: 3.8rem;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.2rem;
+  }
+  .price-row dd {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  .application-card form {
+    padding: 1.5rem 1.15rem;
+  }
+  .application-progress {
+    padding: 1.5rem 0.5rem 1.2rem;
+  }
+  .application-progress small {
+    max-width: 4.5rem;
+    font-size: 0.62rem;
+    white-space: normal;
+  }
+  .application-progress li::before {
+    right: calc(50% + 1.1rem);
+    left: calc(-50% + 1.1rem);
+  }
+  .form-fields {
+    grid-template-columns: 1fr;
+  }
+  .form-field-full-width {
+    grid-column: auto;
+  }
+  .application-review {
+    grid-template-columns: 1fr;
+  }
+  .application-review div:nth-child(odd) {
+    border-right: 0;
+  }
+  .application-review div:nth-last-child(2) {
+    border-bottom: 1px solid var(--border-color);
+  }
+  .application-navigation {
+    flex-direction: column-reverse;
+  }
+  .application-navigation .button {
+    width: 100%;
+  }
+  .contact-request-section {
+    padding-block: 4rem;
+  }
+  .platform-facts-section {
+    padding-block: 3rem;
+  }
+  .platform-facts-list {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .final-cta-section {
+    padding-block: 4rem;
+  }
+  .final-cta-actions {
+    flex-direction: column;
+  }
+  .final-cta-actions .button {
+    width: 100%;
+  }
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
