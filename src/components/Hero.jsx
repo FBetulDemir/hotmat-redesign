@@ -3,12 +3,12 @@ export default function Hero() {
     <section className="hero" id="top">
       <div className="container hero-grid">
         <div className="hero-copy">
-          <p className="eyebrow">För restauranger som vill växa</p>
+          <p className="section-label">För restauranger som vill växa</p>
           <h1>Fler beställningar.<br /><span>Mer kvar till dig.</span></h1>
           <p className="hero-lead">Nå nya kunder, behåll mer av intäkterna och få en personlig partner som hjälper din restaurang att växa.</p>
           <div className="hero-actions">
             <a className="button" href="#anslut">Anslut din restaurang</a>
-            <a className="text-link" href="#sa-fungerar-det">Se hur det fungerar <span aria-hidden="true">→</span></a>
+            <a className="secondary-action-link" href="#sa-fungerar-det">Se hur det fungerar <span aria-hidden="true">→</span></a>
           </div>
           <p className="hero-note"><span aria-hidden="true">✓</span> Ingen bindningstid &nbsp; <span aria-hidden="true">✓</span> Ingen månadsavgift</p>
         </div>
@@ -17,7 +17,7 @@ export default function Hero() {
           <div className="food-orbit food-orbit-two" aria-hidden="true">🥗</div>
           <div className="phone-card">
             <div className="phone-top"><span>9:41</span><span>● ◔</span></div>
-            <div className="phone-brand"><span className="brand-mark">H</span> hotmat</div>
+            <div className="phone-brand"><span className="hotmat-logo-mark">H</span> hotmat</div>
             <p className="order-label">Ny beställning</p>
             <div className="order-row"><span>2 × Margherita</span><strong>218 kr</strong></div>
             <div className="order-row"><span>1 × Caesarsallad</span><strong>129 kr</strong></div>

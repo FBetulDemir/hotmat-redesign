@@ -26,8 +26,8 @@ export default function Header() {
   return (
     <header className="site-header">
       <div className="container header-inner">
-        <a className="brand" href="#top" aria-label="Hotmat, gå till sidans början">
-          <span className="brand-mark" aria-hidden="true">H</span>
+        <a className="hotmat-logo" href="#top" aria-label="Hotmat, gå till sidans början">
+          <span className="hotmat-logo-mark" aria-hidden="true">H</span>
           <span>hotmat</span>
         </a>
 

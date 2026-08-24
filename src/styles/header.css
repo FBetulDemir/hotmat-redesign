@@ -15,7 +15,7 @@
   gap: var(--spacing-4);
 }
 
-.brand {
+.hotmat-logo {
   display: inline-flex;
   align-items: center;
   justify-self: start;
@@ -27,7 +27,7 @@
   letter-spacing: -0.05em;
 }
 
-.brand-mark {
+.hotmat-logo-mark {
   display: inline-flex;
   width: 2.05rem;
   height: 2.05rem;
