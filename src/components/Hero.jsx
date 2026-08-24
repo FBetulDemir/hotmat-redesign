@@ -3,28 +3,20 @@ export default function Hero() {
     <section className="hero" id="top">
       <div className="container hero-grid">
         <div className="hero-copy">
-          <p className="section-label">För restauranger som vill växa</p>
-          <h1>Fler beställningar.<br /><span>Mer kvar till dig.</span></h1>
-          <p className="hero-lead">Nå nya kunder, behåll mer av intäkterna och få en personlig partner som hjälper din restaurang att växa.</p>
+          <p className="section-label">För restauranger</p>
+          <h1>Fler beställningar.<br /><span>Enklare vardag.</span></h1>
+          <p className="hero-lead">Anslut din restaurang till Hotmat och nå fler kunder utan fasta månadsavgifter eller bindningstid.</p>
           <div className="hero-actions">
             <a className="button" href="#anslut">Anslut din restaurang</a>
             <a className="secondary-action-link" href="#sa-fungerar-det">Se hur det fungerar <span aria-hidden="true">→</span></a>
           </div>
-          <p className="hero-note"><span aria-hidden="true">✓</span> Ingen bindningstid &nbsp; <span aria-hidden="true">✓</span> Ingen månadsavgift</p>
+          <p className="hero-note"><span aria-hidden="true">✓</span> 500+ restauranger och butiker i över 50 svenska städer</p>
         </div>
-        <div className="hero-visual" aria-label="Exempel på en beställning i Hotmat">
-          <div className="food-orbit food-orbit-one" aria-hidden="true">🍕</div>
-          <div className="food-orbit food-orbit-two" aria-hidden="true">🥗</div>
-          <div className="phone-card">
-            <div className="phone-top"><span>9:41</span><span>● ◔</span></div>
-            <div className="phone-brand"><span className="hotmat-logo-mark">H</span> hotmat</div>
-            <p className="order-label">Ny beställning</p>
-            <div className="order-row"><span>2 × Margherita</span><strong>218 kr</strong></div>
-            <div className="order-row"><span>1 × Caesarsallad</span><strong>129 kr</strong></div>
-            <div className="order-total"><span>Totalt</span><strong>347 kr</strong></div>
-            <div className="order-status"><span aria-hidden="true">✓</span> Beställningen är bekräftad</div>
-          </div>
-          <div className="rating-card"><strong>4,8</strong><span aria-label="5 stjärnor">★★★★★</span><small>Kundbetyg</small></div>
+        <div className="hero-image-wrapper">
+          <img
+            src="https://images.unsplash.com/photo-1622021142947-da7dedc7c39a?w=800&h=600&fit=crop&auto=format"
+            alt="Kock som förbereder mat i ett professionellt restaurangkök"
+          />
         </div>
       </div>
     </section>
